@@ -9,7 +9,7 @@ import srtm  # SRTM DEM for ground elevation (meters, approx MSL)
 # Making these variables callable outside the functions
 LAST_LAT = None
 LAST_LON = None
-
+print("hello")
 def _rational_to_float(val):
     try:
         if hasattr(val, 'numerator') and hasattr(val, 'denominator'):
